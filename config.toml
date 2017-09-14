@@ -67,8 +67,8 @@ theme = "hugo-elate-theme"
     title = "When is it?"
     description = "MADTalks talks are held in Warhawk Hall during the Warhawk Time block, which runs from approximately 9:50am to 10:25am. Talks will be held approximately once every 3-4 weeks. Venue preparation is done by the management team the day prior, and clean-up is done by the management team immediately following each talk. "
     url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-7jO9dyAhpUuA4/edit"
-    button = "Why us?"
-    icon = "Sign Up"
+    button = "Sign Up"
+    icon = "icon-time"
     img = "img_10.jpg"
 
   [params.intro.video]
