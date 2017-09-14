@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "MadTalksSite.netlify.com"
-title = "Elate theme"
+title = "MADTalks"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
@@ -11,13 +11,13 @@ theme = "hugo-elate-theme"
   # Meta
   author = ""
   description = ""
-  email = "ourpromisesio@gmail.com"
+  email = "skyzoom25@gmail.com"
   # Navigation
   [params.navigation]
-    brand = "Our Promises"
+    brand = "MADTalks"
     home = "Home"
-    work = "Work"
-    testimonials = "About Us"
+    work = "Discover"
+    testimonials = "About"
     services = "Services"
     about = "About"
     contact = "Contact"
@@ -39,8 +39,8 @@ theme = "hugo-elate-theme"
   
   # Hero section
   [params.hero]
-    title = "Our Promises"
-    subtitle = 'You Can Bet We Keep Them <a  target="_blank"></a>'
+    title = "MadTalks"
+    subtitle = 'Connecting students with insights from business leaders <a  target="_blank"></a>'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -48,7 +48,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Mission"
-    description = "To use technology and media to create simple solutions and promote new, creative ideas in communities everywhere. Work to help inspire, inform, and educate young people and those in need. That’s our promise."
+    description = "MADTalks hinges on the three core values of innovation, leadership, and entrepreneurship. It creates live experiences that bring communities together and renders the three key focuses of the organization accessible in a meaningful way to students. The talks will be organized by the MADTalks of James Madison High School, managed by Sky Zoom, Luke Dobrovic, Khuslen Jargalan, and Amartya Banerjee."
     url = "index.html"
     button = "Click Me"
     icon = "icon-rocket"
@@ -56,7 +56,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "The Team"
-    description = "We are Amartya and Abhi, two teenagers in Northern Virginia with the vision of making a difference in communities around the world. We are in 10th grade at high schools in Fairfax County, VA. We both are curious about the world around us and we love to explore new places. We also enjoy photography, travel, and playing video games in our free time; however, most of all we want to benefit people and make the world a better place."
+    description = ""
     url = "#"
     button = "Why Us?"
     icon = "icon-users"
@@ -81,7 +81,7 @@ theme = "hugo-elate-theme"
   [params.work]
     enable = true
     title = "Work"
-    description = "Here are some of our completed projects."
+    description = "Here are some upcoming talks"
     footertext = ''
 
     [[params.work.row]]
