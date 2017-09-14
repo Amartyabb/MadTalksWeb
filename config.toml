@@ -150,7 +150,7 @@ theme = "hugo-elate-theme"
 
 [[params.about.item]]
       name = "Sky Zoom"
-      position = "Data Scientist, CEO"
+      position = "CEO"
       description = "Cool Kid"
       img = "sky.jpg"
       alt = "Person2"
@@ -165,9 +165,9 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "Khuslen Jargalan"
-      position = ""
+      position = "CEO"
       description = ""
-      img = ""
+      img = "sky.jpg"
       alt = "Person3"
       social = [
         ["icon-twitter", "#"],
@@ -177,9 +177,9 @@ theme = "hugo-elate-theme"
 
       [[params.about.item]]
       name = "Luke Dobrevich"
-      position = ""
+      position = "CEO"
       description = ""
-      img = ""
+      img = "sky.jpg"
       alt = "Person3"
       social = [
         ["icon-twitter", "#"],
@@ -189,7 +189,7 @@ theme = "hugo-elate-theme"
 
 [[params.about.item]]
       name = "Amartya Banerjee"
-      position = "Web Developer, CEO"
+      position = "Web Developer"
       description = "Cool Kid"
       img = "Amartya.jpg"
       alt = "Person1"
