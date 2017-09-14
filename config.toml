@@ -39,7 +39,7 @@ theme = "hugo-elate-theme"
   
   # Hero section
   [params.hero]
-    title = "MadTalks"
+    title = "MADTalks"
     subtitle = 'Connecting students with insights from business leaders <a  target="_blank"></a>'
  
   # Intro section
@@ -80,7 +80,7 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
+    title = "Upcoming"
     description = "Here are some upcoming talks"
     footertext = ''
 
