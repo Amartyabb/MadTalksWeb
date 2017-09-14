@@ -147,19 +147,8 @@ theme = "hugo-elate-theme"
     title = "Meet The Team"
     description = "The founders of MadTalks"
 
-    [[params.about.item]]
-      name = "Amartya Banerjee"
-      position = "Web Developer, CEO"
-      description = "Cool Kid"
-      img = "Amartya.jpg"
-      alt = "Person1"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "https://www.facebook.com/profile.php?id=100011150208688"],
-        ["icon-linkedin", "#"]
-      ]
 
-    [[params.about.item]]
+[[params.about.item]]
       name = "Sky Zoom"
       position = "Data Scientist, CEO"
       description = "Cool Kid"
@@ -171,17 +160,45 @@ theme = "hugo-elate-theme"
         ["icon-github", "#"]
       ]
 
+    
+    
+
     [[params.about.item]]
-      name = "Gage Banerjee"
-      position = "Mastermind"
-      description = "Doggo Shiba"
-      img = "Gage.jpg"
+      name = "Khuslen Jargalan"
+      position = ""
+      description = ""
+      img = ""
       alt = "Person3"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
         ["icon-dribbble", "#"]
       ]      
+
+      [[params.about.item]]
+      name = "Luke Dobrevich"
+      position = ""
+      description = ""
+      img = ""
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]   
+
+[[params.about.item]]
+      name = "Amartya Banerjee"
+      position = "Web Developer, CEO"
+      description = "Cool Kid"
+      img = "Amartya.jpg"
+      alt = "Person1"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "https://www.facebook.com/profile.php?id=100011150208688"],
+        ["icon-linkedin", "#"]
+      ]
+
 
   # Counters section
   [params.counters]
