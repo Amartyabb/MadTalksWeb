@@ -85,24 +85,24 @@ theme = "hugo-elate-theme"
     footertext = ''
 
     [[params.work.row]]
-      img = ""
+      img = "capitalone.png"
       alt = "Image2"
       url = ""
       button = "Sign Up"
-      title = ""
+      title = "TBD"
       subtitle = ""
 
     [[params.work.row]]
-      img = ""
+      img = "at@t.png"
       alt = ""
-      title = ""
+      title = "TBD"
       button = "Sign Up"
       subtitle = ""
 
   [[params.work.row]]
-      img = ""
+      img = "icon-xomlogo.png"
       alt = ""
-      title = ""
+      title = "TBD"
       button = "Sign Up"
       subtitle = ""
 
@@ -120,29 +120,29 @@ theme = "hugo-elate-theme"
     description = "What we can do for you"
 
     [[params.services.item]]
-      title = "Content &amp; Strategy"
+      title = "Purpose"
       description = "MADTalks has the ability to connect students with insights from luminaires that they would not otherwise have the opportunity to be exposed to. It is a non-disruptive in-school supplement to core classroom education."
       icon = "icon-anchor"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
+      title = "Content"
       description = "The three main industries MADTalks seeks to bring leaders from are technology, finance, and media. Talks with leaders focus on the strategic management and direction of the corporations they work for, the latest developments in their fields, and their personal experiences leading to their success."
       icon = "icon-layers2"
     [[params.services.item]]
-      title = "Photo &amp; Video"
+      title = "Significance"
       description = "Such insights provide students with a potentially eye-opening introduction to fields that may spark interest for future exploration, as well as open doors for new networks of connection to the professional world."
       icon = "icon-video2"
 
       [[params.services.item]]
-      title = "CMS &amp; eCommerce"
+      title = "Benefits"
       description = "Corporations whose leaders speak at MADTalks events also benefit by developing closer community relations and demonstrating greater corporate social responsibility, two issues that have gained increasing attention in the private sector. They may also be able to develop early relationships with possible future college interns and employees."      
       icon = "icon-monitor"
 
   # About section
   [params.about]
     enable = true
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Meet The Team"
+    description = "The founders of MadTalks"
 
     [[params.about.item]]
       name = "Amartya Banerjee"
@@ -157,10 +157,10 @@ theme = "hugo-elate-theme"
       ]
 
     [[params.about.item]]
-      name = "Abhi Das"
-      position = "Web Designer, CEO"
+      name = "Sky Zoom"
+      position = "Data Scientist, CEO"
       description = "Cool Kid"
-      img = "Abhi.jpg"
+      img = "sky.jpg"
       alt = "Person2"
       social = [
         ["icon-twitter", "#"],
