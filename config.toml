@@ -17,7 +17,7 @@ theme = "hugo-elate-theme"
     brand = "MADTalks"
     home = "Home"
     work = "Discover"
-    testimonials = "About"
+   
     services = "Services"
     about = "About"
     contact = "Contact"
@@ -85,26 +85,26 @@ theme = "hugo-elate-theme"
     footertext = ''
 
     [[params.work.row]]
-      img = "tenderyears.jpg"
+      img = ""
       alt = "Image2"
-      url = "https://tenderyearsbook.org"
-      button = "Go to Tender Years Site"
-      title = "Tender Years"
-      subtitle = "www.tenderyearsbook.org"
+      url = ""
+      button = "Sign Up"
+      title = ""
+      subtitle = ""
 
     [[params.work.row]]
-      img = "nonprof.jpg"
-      alt = "Image2"
-      title = "Non-Profit Search Engine"
-      button = "Coming Soon"
-      subtitle = "Under Construction"
+      img = ""
+      alt = ""
+      title = ""
+      button = "Sign Up"
+      subtitle = ""
 
   [[params.work.row]]
-      img = "nonprof.jpg"
-      alt = "Image2"
-      title = "Non-Profit Search Engine"
-      button = "Coming Soon"
-      subtitle = "Under Construction"
+      img = ""
+      alt = ""
+      title = ""
+      button = "Sign Up"
+      subtitle = ""
 
 
  
