@@ -166,7 +166,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Khuslen Jargalan"
       position = "CEO"
-      description = ""
+      description = "Cool"
       img = "sky.jpg"
       alt = "Person3"
       social = [
@@ -178,7 +178,7 @@ theme = "hugo-elate-theme"
       [[params.about.item]]
       name = "Luke Dobrevich"
       position = "CEO"
-      description = ""
+      description = "Cool"
       img = "sky.jpg"
       alt = "Person3"
       social = [
