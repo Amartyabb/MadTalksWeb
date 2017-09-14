@@ -1,4 +1,4 @@
-baseurl = "madtalks.netlify.com"
+baseurl = "http://example.org"
 title = "Dimension"
 theme = "dimension"
 languageCode = "en-us"
