@@ -43,12 +43,7 @@ theme = "hugo-elate-theme"
     title = "MADTalks"
     subtitle = 'Connecting students with insights from business leaders <a  target="_blank"></a>'
 
-  # Hero section
-  [params.hero]
-    title = "MADTalks"
-    subtitle = 'Connecting students with insights from business leaders <a  target="_blank"></a>'
 
-    
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -97,25 +92,14 @@ theme = "hugo-elate-theme"
       alt = "Image2"
       url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-7jO9dyAhpUuA4/edit"
       button = "Sign Up"
+      url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-7jO9dyAhpUuA4/edit"
+      button = "Learn More"
       title = "September 27th, 2017"
       subtitle = ""
 
-    [[params.work.row]]
-      img = "at@t.png"
-      alt = ""
-      title = "TBD"
-      url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-7jO9dyAhpUuA4/edit"
-      button = "Sign Up"
-      subtitle = ""
+ 
 
-  [[params.work.row]]
-      img = "icon-xomlogo.png"
-      alt = ""
-      title = "TBD"
-      url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-7jO9dyAhpUuA4/edit"
-      button = "Sign Up"
-      subtitle = ""
-
+ 
 
  
     
