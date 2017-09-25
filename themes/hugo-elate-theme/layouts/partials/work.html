@@ -10,19 +10,32 @@
 					</div>
 				</div>
 			</div>
+
+
 			<div class="row row-bottom-padded-sm">
 			{{ range .Site.Params.work.row }}
-				<div class="col-md-4 col-sm-6 col-xxs-12">
+				<div class="col-md-12 col-sm-1 col-xxs-12">
 					<a href="images/{{ .img }}" class="fh5co-project-item image-popup to-animate">
 						<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>{{ .title }}</h2>
 						<span>{{ .subtitle }}</span>
 						</div>
-						<p><a href="{{ .url }}" class="btn btn-primary">{{ .button}}</a></p>
+						 <div class="button-box">
+         <div class="button-box" style="text-align: center;">
+         	<a href="{{ .url }}" class="btn btn-primary btn-info" role="button">{{ .button}}
+         		<a>
+         	<a href="#fh5co-contact" class="btn btn-primary btn-info" role="button">{{ .button2}}
+
+         	
+
+
+
+					
 					</a>
 				</div>				
 
+				
 				<div class="clearfix visible-sm-block"></div>
 			{{ end }}
 			</div>

@@ -20,7 +20,7 @@ theme = "hugo-elate-theme"
    
     services = "Services"
     about = "About"
-    contact = "Contact"
+    contact = "Next"
     signup = "Sign Up"
 
     # You can add custom links before or after the default links
@@ -44,7 +44,27 @@ theme = "hugo-elate-theme"
     subtitle = 'Connecting students with insights from business leaders <a  target="_blank"></a>'
 
 
- 
+ # Work section
+  [params.work]
+    enable = true
+    title = "Upcoming"
+    description = "Here are some upcoming talks"
+    footertext = ''
+
+
+
+    [[params.work.row]]
+      img = "Chipotle.jpg"
+      alt = "Image2"
+      url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-7jO9dyAhpUuA4/edit"
+      button = "Sign Up"
+      url2 = "google.com"
+      button2 = "Learn More"
+      title = "September 27th, 2017"
+      subtitle = ""
+
+    
+    
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
@@ -80,30 +100,7 @@ theme = "hugo-elate-theme"
     url = "https://vimeo.com/channels/staffpicks/93951774"
 
 
-  # Work section
-  [params.work]
-    enable = true
-    title = "Upcoming"
-    description = "Here are some upcoming talks"
-    footertext = ''
-
-    [[params.work.row]]
-      img = "Chipotle.jpg"
-      alt = "Image2"
-      url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-7jO9dyAhpUuA4/edit"
-      button = "Sign Up"
-      url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-7jO9dyAhpUuA4/edit"
-      button = "Learn More"
-      title = "September 27th, 2017"
-      subtitle = ""
-
- 
-
- 
-
- 
-    
-    
+  
 
 
 
@@ -188,6 +185,63 @@ theme = "hugo-elate-theme"
         ["icon-linkedin", "#"]
       ]
 
+# Learn section
+  [params.Learn]
+    enable = true
+    title = "Meet The Team"
+    description = "The founders of MadTalks"
+
+
+[[params.Learn.item]]
+      name = "Sky Zoom"
+      position = "CEO"
+      description = "Cool Kid"
+      img = "sky.jpg"
+      alt = "Person2"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "https://www.facebook.com/abhxi"],
+        ["icon-github", "#"]
+      ]
+
+    
+    
+
+    [[params.Learn.item]]
+      name = "Khuslen Jargalan"
+      position = "CEO"
+      description = ""
+      img = "sky.jpg"
+      alt = "Person3"
+      social = [
+        
+      ]      
+
+      [[params.Learn.item]]
+      name = "Luke Dobrevich"
+      position = "CEO"
+      description = ""
+      img = "sky.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]   
+
+[[params.Learn.item]]
+      name = "Amartya Banerjee"
+      position = "Web Developer"
+      description = "Cool Kid"
+      img = "Amartya.jpg"
+      alt = "Person1"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "https://www.facebook.com/profile.php?id=100011150208688"],
+        ["icon-linkedin", "#"]
+      ]
+
+
 
   # Counters section
   [params.counters]
@@ -227,6 +281,16 @@ theme = "hugo-elate-theme"
       interval = 50
       speed = 1000
 
+
+
+      [[params.introbutton.item]]
+    
+    url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-7jO9dyAhpUuA4/edit"
+    button = "Sign Up"
+    
+
+
+
   # Contact section
   [params.contact]
 
@@ -249,7 +313,26 @@ theme = "hugo-elate-theme"
     message = "Message"
     button = "Send message"
 
-  # Footer section
-  [params.footer]
+
+# Chipotle section
+  [params.chipotle]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    title = "Marketing the Burrito Bowl"
+    description = "Upcoming Talk: September 27, 2017"
+
+    [[params.chipotle.item]]
+      title = "About The Talk"
+      description = "Today, about 1 million people will eat at Chipotle. The fast-casual food chain has pioneered and innovated in the restaurant industry, and in the last 10 years, its sales have increased by 400 percent. But this skyrocketing popularity of burritos and burrito bowls is different from just about every other restaurant in its market. Notably, it has a one-of-a-kind marketing strategy that steers away from conventional media to promote its products (ever seen a Chipotle TV commercial? Yeah, didn’t think so). In this talk, Chipotle Marketing Strategist Jake Park will share his valuable insights into the company’s unique method of reaching and attracting customers in the increasingly competitive fast-casual restaurant industry. "
+      icon = "icon-anchor"
+
+
+    [[params.chipotle.item]]
+      title = "Jake Park"
+      img = "jake.jpg"
+      description = "Jake Park helps design the framework necessary for Chipotle to reach its customers and expand its market both locally and nationally. Previously, he was Senior Brand Associate for Capital One, working specializing in small businesses."
+      icon = "icon-layers2"
+    
+
+     
+  
+    

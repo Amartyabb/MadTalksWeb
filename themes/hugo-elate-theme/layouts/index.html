@@ -11,12 +11,14 @@
         {{ partial "nav.html" .}}
 
 		{{ partial "hero.html" .}}
+
+        {{ if .Site.Params.work.enable }}
+            {{ partial "work.html" .}}
+        {{ end }}
 		
         {{ partial "intro.html" .}}
 
-		{{ if .Site.Params.work.enable }}
-       		{{ partial "work.html" .}}
-       	{{ end }}
+		
 
 		{{ if .Site.Params.testimonials.enable }}
         	{{ partial "testimonials.html" .}}
@@ -37,6 +39,11 @@
 		{{ if .Site.Params.contact.enable }}
         	{{ partial "contact.html" .}}
         {{ end }}
+
+        {{ if .Site.Params.signup.enable }}
+            {{ partial "signup.html" .}}
+        {{ end }}
+
 
         {{ if .Site.Params.footer.enable }}
         	{{ partial "footer.html" .}}
