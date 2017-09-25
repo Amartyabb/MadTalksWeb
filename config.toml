@@ -86,11 +86,11 @@ theme = "hugo-elate-theme"
     footertext = ''
 
     [[params.work.row]]
-      img = "capitalone.png"
+      img = "Chipotle.jpg"
       alt = "Image2"
       url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-7jO9dyAhpUuA4/edit"
       button = "Sign Up"
-      title = "TBD"
+      title = "September 27th, 2017"
       subtitle = ""
 
     [[params.work.row]]
