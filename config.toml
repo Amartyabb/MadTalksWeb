@@ -64,7 +64,7 @@ theme = "hugo-elate-theme"
       subtitle = ""
 
     
-    
+
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
@@ -138,13 +138,13 @@ theme = "hugo-elate-theme"
 
 [[params.about.item]]
       name = "Sky Zoom"
-      position = "CEO"
-      description = "Cool Kid"
+      position = 
+      description = 
       img = "sky.jpg"
       alt = "Person2"
       social = [
         ["icon-twitter", "#"],
-        ["icon-facebook", "https://www.facebook.com/abhxi"],
+        ["icon-facebook", ""],
         ["icon-github", "#"]
       ]
 
@@ -153,9 +153,9 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "Khuslen Jargalan"
-      position = "CEO"
+      position = 
       description = ""
-      img = "sky.jpg"
+      img = 
       alt = "Person3"
       social = [
         
@@ -163,9 +163,9 @@ theme = "hugo-elate-theme"
 
       [[params.about.item]]
       name = "Luke Dobrevich"
-      position = "CEO"
+      position = 
       description = ""
-      img = "sky.jpg"
+      img = 
       alt = "Person3"
       social = [
         ["icon-twitter", "#"],
@@ -175,8 +175,8 @@ theme = "hugo-elate-theme"
 
 [[params.about.item]]
       name = "Amartya Banerjee"
-      position = "Web Developer"
-      description = "Cool Kid"
+      position = 
+      description = 
       img = "Amartya.jpg"
       alt = "Person1"
       social = [
