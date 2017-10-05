@@ -54,13 +54,13 @@ theme = "hugo-elate-theme"
 
 
     [[params.work.row]]
-      img = "Chipotle.jpg"
+      img = ""
       alt = "Image2"
       url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-7jO9dyAhpUuA4/edit"
       button = "Sign Up"
       url2 = "google.com"
       button2 = "Learn More"
-      title = "September 27th, 2017"
+      title = "TBD"
       subtitle = ""
 
     
@@ -317,8 +317,8 @@ theme = "hugo-elate-theme"
 # Chipotle section
   [params.chipotle]
     enable = true
-    title = "Marketing the Burrito Bowl"
-    description = "Upcoming Talk: September 27, 2017"
+    title = "Previous Talks"
+    description = "Marketing the Burrito Bowl: September 27, 2017"
 
     [[params.chipotle.item]]
       title = "About The Talk"
