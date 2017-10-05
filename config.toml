@@ -322,7 +322,7 @@ theme = "hugo-elate-theme"
 
     [[params.chipotle.item]]
       title = "About The Talk"
-      description = "Today, about 1 million people will eat at Chipotle. The fast-casual food chain has pioneered and innovated in the restaurant industry, and in the last 10 years, its sales have increased by 400 percent. But this skyrocketing popularity of burritos and burrito bowls is different from just about every other restaurant in its market. Notably, it has a one-of-a-kind marketing strategy that steers away from conventional media to promote its products (ever seen a Chipotle TV commercial? Yeah, didn’t think so). In this talk, Chipotle Marketing Strategist Jake Park will share his valuable insights into the company’s unique method of reaching and attracting customers in the increasingly competitive fast-casual restaurant industry. "
+      description = "Today, about 1 million people will eat at Chipotle. The fast-casual food chain has pioneered and innovated in the restaurant industry, and in the last 10 years, its sales have increased by 400 percent. But this skyrocketing popularity of burritos and burrito bowls is different from just about every other restaurant in its market. Notably, it has a one-of-a-kind marketing strategy that steers away from conventional media to promote its products (ever seen a Chipotle TV commercial? Yeah, didn’t think so). In this talk, Chipotle Marketing Strategist Jake Park shared his valuable insights into the company’s unique method of reaching and attracting customers in the increasingly competitive fast-casual restaurant industry. "
       icon = "icon-anchor"
 
 
@@ -330,6 +330,12 @@ theme = "hugo-elate-theme"
       title = "Jake Park"
       img = "jake.jpg"
       description = "Jake Park helps design the framework necessary for Chipotle to reach its customers and expand its market both locally and nationally. Previously, he was Senior Brand Associate for Capital One, working specializing in small businesses."
+      icon = "icon-layers2"
+
+      [[params.chipotle.item]]
+      title = "Summary"
+      img = "chipotle1.jpg"
+      description = "TBD"
       icon = "icon-layers2"
     
 
