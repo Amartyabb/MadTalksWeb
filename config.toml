@@ -364,6 +364,10 @@ theme = "hugo-elate-theme"
       [[params.work.row]]
       img = "chipotle7.jpg"
       alt = "Image6"
+
+      [[params.work.row]]
+      img = "chipotle8.jpg"
+      alt = "Image6"
       
   
     
