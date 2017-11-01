@@ -45,11 +45,11 @@ theme = "hugo-elate-theme"
 
 
  # Work section
-  [params.work]
-    enable = true
-    title = "Upcoming"
-    description = "Here are some upcoming talks"
-    footertext = ''
+ # [params.work]
+ #   enable = true
+ #   title = "Upcoming"
+ #   description = "Here are some upcoming talks"
+ #   footertext = ''
 
 
 
@@ -87,17 +87,17 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Logistics"
-    description = "MADTalks talks are held in Warhawk Hall during the Warhawk Time block, which runs from approximately 9:50am to 10:25am. Talks will be held approximately once every 3-4 weeks. Venue preparation is done by the management team the day prior, and clean-up is done by the management team immediately following each talk. "
+    description = "talks are held in Warhawk Hall during the Warhawk Time block, which runs from approximately 9:50am to 10:25am. Talks will be held approximately once every 3-4 weeks. Venue preparation is done by the management team the day prior, and clean-up is done by the management team immediately following each talk. "
     url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-7jO9dyAhpUuA4/edit"
     button = "Sign Up"
     icon = "icon-wrench"
     img = "img_10.jpg"
 
-  [params.intro.video]
-    enable = true
-    title = "Watch the video"
-    icon = "icon-play2"
-    url = "https://vimeo.com/234611234"
+ # [params.intro.video]
+ #   enable = true
+  #  title = "Watch the video"
+ #   icon = "icon-play2"
+ #   url = "https://vimeo.com/234611234"
 
 
   
@@ -133,56 +133,50 @@ theme = "hugo-elate-theme"
   [params.about]
     enable = true
     title = "Meet The Team"
-    description = "The founders of MadTalks"
+    description = ""
 
 
 [[params.about.item]]
       name = "Sky Zoom"
-      position = "CEO"
-      description = "Cool Kid"
+      position = "Founder"
+      description = "Director"
       img = "sky.jpg"
       alt = "Person2"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "https://www.facebook.com/abhxi"],
-        ["icon-github", "#"]
+        
+        ["icon-linkedin", "https://www.linkedin.com/in/skyzoom/"]
       ]
 
+      [[params.about.item]]
+      name = "Luke Dobrovic"
+      position = "Partner"
+      description = "      "
+      img = "sky.jpg"
+      alt = "Person3"
+      
     
     
 
     [[params.about.item]]
       name = "Khuslen Jargalan"
-      position = "CEO"
-      description = ""
+      position = "Partner"
+      description = "       "
       img = "sky.jpg"
       alt = "Person3"
-      social = [
-        
-      ]      
+   
 
-      [[params.about.item]]
-      name = "Luke Dobrevich"
-      position = "CEO"
-      description = ""
-      img = "sky.jpg"
-      alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]   
 
 [[params.about.item]]
       name = "Amartya Banerjee"
-      position = "Web Developer"
-      description = "Cool Kid"
+      position = "Partner and Software Development"
+      description = "Web Developer"
       img = "Amartya.jpg"
       alt = "Person1"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "https://www.facebook.com/profile.php?id=100011150208688"],
-        ["icon-linkedin", "#"]
+        
+        
+        ["icon-linkedin", "#"],
+        ["icon-github", "github.io/amartyabb"],
       ]
 
 # Learn section
@@ -244,49 +238,49 @@ theme = "hugo-elate-theme"
 
 
   # Counters section
-  [params.counters]
-    enable = true
-    title = "Stats"
-    background = "full_image_1.jpg"
+  #[params.counters]
+  #  enable = true
+ #   title = "Stats"
+ #   background = "full_image_1.jpg"
 
-    [[params.counters.item]]
-      description = "GB of space"
-      icon = "icon-floppy-o"
-      from = 0
-      to = 289
-      interval = 50
-      speed = 5000
+ #   [[params.counters.item]]
+ #     description = "GB of space"
+ #     icon = "icon-floppy-o"
+ #     from = 0
+ #     to = 289
+ #     interval = 50
+ #     speed = 5000
 
-    [[params.counters.item]]
-      description = "Lines of code"
-      icon = "icon-code"
-      from = 0
-      to = 2343409
-      interval = 50
-      speed = 5000
+ #   [[params.counters.item]]
+ #     description = "Lines of code"
+ #     icon = "icon-code"
+ #     from = 0
+ #     to = 2343409
+ #     interval = 50
+ #     speed = 5000
 
-    [[params.counters.item]]
-      description = "Cups of coffee"
-      icon = "icon-cup"
-      from = 0
-      to = 1302
-      interval = 50
-      speed = 5000
+ #   [[params.counters.item]]
+  #    description = "Cups of coffee"
+ #     icon = "icon-cup"
+ #     from = 0
+ #     to = 1302
+ #     interval = 50
+ #     speed = 5000
 
-    [[params.counters.item]]
-      description = "Employees"
-      icon = "icon-people"
-      from = 0
-      to = 4
-      interval = 50
-      speed = 1000
+ #   [[params.counters.item]]
+ #     description = "Employees"
+ #     icon = "icon-people"
+  #    from = 0
+ #     to = 4
+ #     interval = 50
+ #     speed = 1000
 
 
 
-      [[params.introbutton.item]]
+   #   [[params.introbutton.item]]
     
-    url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-7jO9dyAhpUuA4/edit"
-    button = "Sign Up"
+   # url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-#7jO9dyAhpUuA4/edit"
+  #  button = "Sign Up"
     
 
 
@@ -334,8 +328,8 @@ theme = "hugo-elate-theme"
 
       [[params.chipotle.item]]
       title = "Summary"
-      img = "chipotle1.jpg"
-      description = "TBD"
+      img = "chipotle2.jpg"
+      description = ""
       icon = "icon-layers2"
     
 
