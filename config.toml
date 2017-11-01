@@ -44,24 +44,11 @@ theme = "hugo-elate-theme"
     subtitle = 'sparking exploration <a  target="_blank"></a>'
 
 
- # Work section
- # [params.work]
- #   enable = true
- #   title = "Upcoming"
- #   description = "Here are some upcoming talks"
- #   footertext = ''
+
+ 
 
 
 
-    [[params.work.row]]
-      img = ""
-      alt = "Image2"
-      url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-7jO9dyAhpUuA4/edit"
-      button = "Sign Up"
-      url2 = "google.com"
-      button2 = "Learn More"
-      title = "TBD"
-      subtitle = ""
 
     
 
@@ -332,7 +319,51 @@ theme = "hugo-elate-theme"
       description = ""
       icon = "icon-layers2"
     
+# Work Section
+     [params.work]
+    enable = true
+    title = "Gallery"
+    description = "Here are some pictures from our last talk"
+    footertext = ''
 
-     
+    [[params.work.row]]
+      img = "groupchipotle.jpg"
+      alt = "Image2"
+      
+
+    [[params.work.row]]
+      img = "chipotle4.jpg"
+      alt = "Image2"
+      
+
+    [[params.work.row]]
+      img = "chipotle1.jpg"
+      alt = "Image3"
+      
+
+    [[params.work.row]]
+      img = "chipotle2.jpg"
+      alt = "Image4"
+      
+
+    [[params.work.row]]
+      img = "chipotle3.jpg"
+      alt = "Image5"
+      
+
+    [[params.work.row]]
+      img = "chipotle5.jpg"
+      alt = "Image6"
+      
+
+      [[params.work.row]]
+      img = "chipotle6.jpg"
+      alt = "Image6"
+      
+
+      [[params.work.row]]
+      img = "chipotle7.jpg"
+      alt = "Image6"
+      
   
     
