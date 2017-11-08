@@ -1,0 +1,68 @@
+<section id="fh5co-contact" data-section="Next">
+			<section id="fh5co-microsoft" data-section="microsoft">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-left">
+					<h2 class=" left-border to-animate">{{ with .Site.Params.microsoft.title }}{{ . | markdownify }}{{ end }}</h2>
+					<div class="row">
+						<div class="col-md-8 subtext to-animate">
+							<h3>{{ with .Site.Params.microsoft.description }}{{ . | markdownify }}{{ end }}</h3>
+							</div>
+					<div class="form-group ">
+						
+
+<div class="form-group ">
+						<a href="https://docs.google.com/forms/d/1GnRs_rJpubGvutVm7mdaV0ZIkFhxXaeN4c8B-EDIB4E/edit" class="button">
+					</div>
+
+
+
+<input class="btn btn-primary btn-lg" value="{{ .Site.Params.microsoft.button | markdownify }}" type="button">
+
+
+
+
+					</div>
+
+
+
+
+
+					
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+<div class="container">
+			<div class="row row-bottom-padded-lg">
+				{{ range .Site.Params.introbutton.item }}
+				
+					
+						
+						<p><a href="{{ .url }}" class="btn btn-primary">{{ .button}}</a></p>
+					
+				
+				{{ end }}
+
+			<div class="row">
+			{{ range .Site.Params.microsoft.item }}
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
+					<h3>{{ .title | markdownify }}</h3>
+					<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
+					<p><font size="4" color = black>{{ .description | markdownify }}</font></p>
+
+
+				</div>
+				<div class="clearfix visible-sm-block"></div>
+
+			{{ end }}
+
+			</div>
+		</div>
+	</section>
+	</section>

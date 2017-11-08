@@ -37,6 +37,8 @@
         	{{ partial "about.html" .}}
 		{{ end }}
 
+        
+
 		{{ if .Site.Params.counters.enable }}
         	{{ partial "counters.html" .}}
         {{ end }}
@@ -49,6 +51,7 @@
             {{ partial "signup.html" .}}
         {{ end }}
 
+        
 
 
         {{ if .Site.Params.footer.enable }}
