@@ -48,7 +48,7 @@ theme = "hugo-elate-theme"
   [params.microsoft]
     enable = true
     title = "Upcoming Talk"
-    description = "THE STATE AND FUTURE OF CLOUD COMPUTING: November 25, 2017"
+    description = "THE STATE AND FUTURE OF CLOUD COMPUTING: November 15, 2017"
     button = "sign up"
 
 
