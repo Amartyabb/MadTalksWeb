@@ -44,8 +44,28 @@ theme = "hugo-elate-theme"
     subtitle = 'sparking exploration <a  target="_blank"></a>'
 
 
+# Microsoft section
+  [params.microsoft]
+    enable = true
+    title = "Upcoming Talk"
+    description = "THE STATE AND FUTURE OF CLOUD COMPUTING: November 25, 2017"
+    button = "sign up"
 
- 
+
+    [[params.microsoft.item]]
+      title = "About The Talk"
+      description = "Since its introduction in 2006, cloud computing is changing the way we watch TV, do our homework, listen to music, and just about every other aspect of our life, whether we realize it or not. Cloud computing is also changing the way businesses and the governments across the world operate. In this MADTalk, Jessica Tavasti Davis, Director of Business Applications for the US Public Sector at Microsoft, shares insights from working with cloud for nine years. With a track record of empowering digital transformation with Microsoft cloud across the public sector, Jessica discusses Microsoft’s niche in the cloud industry, the relationship between her company and competitors like Amazon Web Services and Google Cloud Platform, and the biggest potentials for growth and challenge of cloud computing in the coming years, among other topics."
+      icon = "icon-anchor"
+
+
+    [[params.microsoft.item]]
+      title = "Jessica Davis"
+      img = "jessica.jpg"
+      description = "Jessica Tavasti Davis has worked at Microsoft for over nine years, and she brings extensive expertise from a variety of roles and projects in the cloud field. She is currently Director of Business Applications for the US Public Sector, where she works with federal, state, and local governments to develop and implement Microsoft’s cloud solutions that enhance productivity, increase return on investment, and reduce costs."
+      icon = "icon-layers2"
+
+      
+    
 
 
 
@@ -370,4 +390,27 @@ theme = "hugo-elate-theme"
       alt = "Image6"
       
   
+  # Chipotle section
+  [params.chipotleprev]
+    enable = true
+    title = "Previous Talks"
+    description = "Marketing the Burrito Bowl: September 27, 2017"
+
+    [[params.chipotleprev.item]]
+      title = "About The Talk"
+      description = "Today, about 1 million people will eat at Chipotle. The fast-casual food chain has pioneered and innovated in the restaurant industry, and in the last 10 years, its sales have increased by 400 percent. But this skyrocketing popularity of burritos and burrito bowls is different from just about every other restaurant in its market. Notably, it has a one-of-a-kind marketing strategy that steers away from conventional media to promote its products (ever seen a Chipotle TV commercial? Yeah, didn’t think so). In this talk, Chipotle Marketing Strategist Jake Park shared his valuable insights into the company’s unique method of reaching and attracting customers in the increasingly competitive fast-casual restaurant industry. "
+      icon = "icon-anchor"
+
+
+    [[params.chipotleprev.item]]
+      title = "Jake Park"
+      img = "jake.jpg"
+      description = "Jake Park helps design the framework necessary for Chipotle to reach its customers and expand its market both locally and nationally. Previously, he was Senior Brand Associate for Capital One, working specializing in small businesses."
+      icon = "icon-layers2"
+
+      [[params.chipotleprev.item]]
+      title = "Summary"
+      img = "chipotle2.jpg"
+      description = ""
+      icon = "icon-layers2"
     

@@ -12,6 +12,11 @@
 
 		{{ partial "hero.html" .}}
 
+        
+        {{ partial "microsoft.html" .}}
+        
+        
+
         {{ if .Site.Params.work.enable }}
             {{ partial "work.html" .}}
         {{ end }}
@@ -43,6 +48,7 @@
         {{ if .Site.Params.signup.enable }}
             {{ partial "signup.html" .}}
         {{ end }}
+
 
 
         {{ if .Site.Params.footer.enable }}
