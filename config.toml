@@ -20,8 +20,8 @@ theme = "hugo-elate-theme"
    
     services = "Services"
     about = "About"
-    contact = "Next"
-    signup = "Sign Up"
+    contact = "Upcoming"
+    testimonials = "Previous"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -168,9 +168,9 @@ theme = "hugo-elate-theme"
 
 [[params.about.item]]
       name = "Sky Zoom"
-      position = "Founder"
-      description = "Director"
-      img = "skyzoom.JPG"
+      position = "President"
+      description = "Director of Content"
+      img = "SKYZOOMPIC.JPG"
       alt = "Person2"
       social = [
         
@@ -179,9 +179,9 @@ theme = "hugo-elate-theme"
 
       [[params.about.item]]
       name = "Luke Dobrovic"
-      position = "Partner"
+      position = "Director of Operations"
       description = "      "
-      img = "luke.JPG"
+      img = "LUKEPIC.JPG"
       alt = "Person3"
       
     
@@ -189,7 +189,7 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "Khuslen Jargalan"
-      position = "Partner"
+      position = "Director of Outreach"
       description = "       "
       img = "khuska.JPG"
       alt = "Person3"
@@ -198,7 +198,7 @@ theme = "hugo-elate-theme"
 
 [[params.about.item]]
       name = "Amartya Banerjee"
-      position = "Partner and Software Development"
+      position = "Director of IT and Software"
       description = "Web Developer"
       img = "amartya1.JPG"
       alt = "Person1"

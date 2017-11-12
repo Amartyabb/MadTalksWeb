@@ -13,6 +13,7 @@
 		{{ partial "hero.html" .}}
 
         
+        
         {{ partial "microsoft.html" .}}
         
         
@@ -25,19 +26,20 @@
 
 		
 
-		{{ if .Site.Params.testimonials.enable }}
-        	{{ partial "testimonials.html" .}}
-		{{ end }}
+		
 
 		{{ if .Site.Params.services.enable }}
         	{{ partial "services.html" .}}
 		{{ end }}
 
+        {{ partial "testimonials.html" .}}
+
 		{{ if .Site.Params.about.enable }}
         	{{ partial "about.html" .}}
 		{{ end }}
 
-        
+
+       
 
 		{{ if .Site.Params.counters.enable }}
         	{{ partial "counters.html" .}}
