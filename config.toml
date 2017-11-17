@@ -349,7 +349,7 @@ theme = "hugo-elate-theme"
 # Chipotle section
   [params.chipotle]
     enable = true
-    title = "Previous Talks"
+    title = "        "
     description = "Marketing the Burrito Bowl: September 27, 2017"
 
     [[params.chipotle.item]]
@@ -424,7 +424,7 @@ theme = "hugo-elate-theme"
   # Chipotle section
   [params.chipotleprev]
     enable = true
-    title = "Previous Talks"
+    title = "           "
     description = "Marketing the Burrito Bowl: September 27, 2017"
 
     [[params.chipotleprev.item]]
