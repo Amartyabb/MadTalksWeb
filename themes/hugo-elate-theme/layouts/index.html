@@ -14,7 +14,7 @@
 
         
         
-        {{ partial "microsoft.html" .}}
+        
         
         
 
@@ -32,6 +32,8 @@
         	{{ partial "services.html" .}}
 		{{ end }}
 
+        {{ partial "microsoft.html" .}}
+        
         {{ partial "testimonials.html" .}}
 
 		{{ if .Site.Params.about.enable }}

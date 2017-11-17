@@ -70,9 +70,9 @@ theme = "hugo-elate-theme"
 # Microsoft section
   [params.microsoft]
     enable = true
-    title = "Upcoming Talk"
+    title = "Previous Talk"
     description = "THE STATE AND FUTURE OF CLOUD COMPUTING: November 15, 2017"
-    button = "sign up"
+    button = "      "
 
 
     [[params.microsoft.item]]
@@ -88,9 +88,17 @@ theme = "hugo-elate-theme"
       icon = "icon-layers2"
 
       
-    
+    [[params.microsoft.item]]
+      title = ""
+      img = "JESSTALK.JPG"
+      description = ""
+      icon = "icon-layers2"
 
-
+      [[params.microsoft.item]]
+      title = ""
+      img = "JESSTALK2.JPG"
+      description = ""
+      icon = "icon-layers2"
 
 
     
@@ -179,8 +187,8 @@ theme = "hugo-elate-theme"
 
       [[params.about.item]]
       name = "Luke Dobrovic"
-      position = "Director of Operations"
-      description = "      "
+      position = "CEO "
+      description = "Director of Operations   "
       img = "LUKEPIC.JPG"
       alt = "Person3"
       
@@ -357,7 +365,7 @@ theme = "hugo-elate-theme"
       icon = "icon-layers2"
 
       [[params.chipotle.item]]
-      title = "Summary"
+      title = ""
       img = "chipotle2.jpg"
       description = ""
       icon = "icon-layers2"
@@ -366,7 +374,7 @@ theme = "hugo-elate-theme"
      [params.work]
     enable = true
     title = "Gallery"
-    description = "Here are some pictures from our last talk"
+    description = "Here are some pictures from our last few talks"
     footertext = ''
 
     [[params.work.row]]
@@ -380,22 +388,22 @@ theme = "hugo-elate-theme"
       
 
     [[params.work.row]]
-      img = "chipotle1.jpg"
+      img = "JESSTALK3.JPG"
       alt = "Image3"
       
 
     [[params.work.row]]
-      img = "chipotle2.jpg"
+      img = "JESSTALK6.JPG"
       alt = "Image4"
       
 
     [[params.work.row]]
-      img = "chipotle3.jpg"
+      img = "JESSTALK4.JPG"
       alt = "Image5"
       
 
     [[params.work.row]]
-      img = "chipotle5.jpg"
+      img = "JESSTALK5.JPG"
       alt = "Image6"
       
 
@@ -432,7 +440,7 @@ theme = "hugo-elate-theme"
       icon = "icon-layers2"
 
       [[params.chipotleprev.item]]
-      title = "Summary"
+      title = ""
       img = "chipotle2.jpg"
       description = ""
       icon = "icon-layers2"
