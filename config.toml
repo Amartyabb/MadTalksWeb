@@ -139,27 +139,38 @@ theme = "hugo-elate-theme"
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "What we can do for you"
+    title = "Our Next Talk"
+    description = ""
 
     [[params.services.item]]
-      title = "Purpose"
-      description = "MADTalks has the ability to connect students with insights from luminaires that they would not otherwise have the opportunity to be exposed to. It is a non-disruptive in-school supplement to core classroom education."
-      icon = "icon-anchor"
+      title = "Money and Millenials"
+      description = "December 13, 2017"
+      icon = "icon-money"
+      url = "https://docs.google.com/forms/d/e/1FAIpQLScl8yFX77FB3jFTKj2Vk3L3NB8nnzoakQ-CrCaKbrIgIg23Yw/viewform"
+      button = "Sign Up"
 
-    [[params.services.item]]
-      title = "Content"
-      description = "The three main industries MADTalks seeks to bring leaders from are technology, finance, and media. Talks with leaders focus on the strategic management and direction of the corporations they work for, the latest developments in their fields, and their personal experiences leading to their success."
-      icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Significance"
-      description = "Such insights provide students with a potentially eye-opening introduction to fields that may spark interest for future exploration, as well as open doors for new networks of connection to the professional world."
-      icon = "icon-video2"
+      [params.services1]
+    enable = true
+    title = "Future Talks"
+    description = ""
 
-      [[params.services.item]]
-      title = "Benefits"
-      description = "Corporations whose leaders speak at MADTalks events also benefit by developing closer community relations and demonstrating greater corporate social responsibility, two issues that have gained increasing attention in the private sector. They may also be able to develop early relationships with possible future college interns and employees."      
-      icon = "icon-monitor"
+    [[params.services1.item]]
+      title = "Uber in Hot Water"
+      description = "January 11, 2018"
+      icon = "icon-car"
+      
+
+    [[params.services1.item]]
+      title = "Solve a Rubik’s Cube and become a Millionaire"
+      description = "February 21, 2018"
+      icon = "icon-cube"
+
+    [[params.services1.item]]
+      title = "The Power of Social Media in 2018 American Politics"
+      description = "March 7, 2018"
+      icon = "icon-twitter"
+
+    
 
 
 
