@@ -16,12 +16,12 @@ theme = "hugo-elate-theme"
   [params.navigation]
     brand = "MADTalks"
     home = "Home"
+    services = "Upcoming"
     work = "Discover"
-   
-    services = "Services"
+    contact = "Previous"
     about = "About"
-    contact = "Upcoming"
-    testimonials = "Previous"
+    
+    
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -144,10 +144,10 @@ theme = "hugo-elate-theme"
 
     [[params.services.item]]
       title = "Money and Millenials"
-      description = "December 13, 2017"
+      description = "TBD"
       icon = "icon-money"
       url = "https://docs.google.com/forms/d/e/1FAIpQLScl8yFX77FB3jFTKj2Vk3L3NB8nnzoakQ-CrCaKbrIgIg23Yw/viewform"
-      button = "Sign Up"
+      
 
       [params.services1]
     enable = true
@@ -156,18 +156,18 @@ theme = "hugo-elate-theme"
 
     [[params.services1.item]]
       title = "Uber in Hot Water"
-      description = "January 11, 2018"
+      description = "Todd Bower | January 11, 2018"
       icon = "icon-car"
       
 
     [[params.services1.item]]
       title = "Solve a Rubik’s Cube and become a Millionaire"
-      description = "February 21, 2018"
+      description = "Sze Wong | February 21, 2018"
       icon = "icon-cube"
 
     [[params.services1.item]]
       title = "The Power of Social Media in 2018 American Politics"
-      description = "March 7, 2018"
+      description = "Jeb Ory | March 7, 2018"
       icon = "icon-twitter"
 
     
