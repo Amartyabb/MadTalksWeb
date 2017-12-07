@@ -141,12 +141,16 @@ theme = "hugo-elate-theme"
     enable = true
     title = "Our Next Talk"
     description = ""
+    url = "https://docs.google.com/forms/d/e/1FAIpQLScl8yFX77FB3jFTKj2Vk3L3NB8nnzoakQ-CrCaKbrIgIg23Yw/viewform"
+    button = "sign up"
 
     [[params.services.item]]
       title = "Money and Millenials"
-      description = "TBD"
+      description = "December 13, 2017 | Lynne Celia | Citigroup VP of Wealth Management"
       icon = "icon-money"
       url = "https://docs.google.com/forms/d/e/1FAIpQLScl8yFX77FB3jFTKj2Vk3L3NB8nnzoakQ-CrCaKbrIgIg23Yw/viewform"
+    button = "sign up"
+      
       
 
       [params.services1]
@@ -198,6 +202,10 @@ theme = "hugo-elate-theme"
       description = "Head of Operations   "
       img = "LUKEPIC.JPG"
       alt = "Person3"
+      social = [
+        
+        ["icon-linkedin", "https://www.linkedin.com/in/luke-dobrovic-8797a1154/"]
+      ]
       
     
     
