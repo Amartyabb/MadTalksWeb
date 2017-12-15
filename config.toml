@@ -145,11 +145,11 @@ theme = "hugo-elate-theme"
     button = "sign up"
 
     [[params.services.item]]
-      title = "Money and Millenials"
-      description = "December 13, 2017 | Lynne Celia | Citigroup VP of Wealth Management"
-      icon = "icon-money"
+      title = "Uber in Hot Water"
+      description = "Todd Bower | January 11, 2018"
+      icon = "icon-car"
       url = "https://docs.google.com/forms/d/e/1FAIpQLScl8yFX77FB3jFTKj2Vk3L3NB8nnzoakQ-CrCaKbrIgIg23Yw/viewform"
-    button = "sign up"
+    button = ""
       
       
 
@@ -159,9 +159,14 @@ theme = "hugo-elate-theme"
     description = ""
 
     [[params.services1.item]]
-      title = "Uber in Hot Water"
-      description = "Todd Bower | January 11, 2018"
-      icon = "icon-car"
+      title = "Money and Millenials "
+      description = "January 24, 2018 | Lynne Celia | Citigroup VP of Wealth Management"
+      icon = "icon-money"
+
+    [[params.services1.item]]
+      title = "Putting a Chip in your Brain"
+      description = "February 2, 2018 | Bryan Johnson "
+      icon = "icon-head"
       
 
     [[params.services1.item]]
