@@ -54,7 +54,7 @@ theme = "hugo-elate-theme"
 
     [[params.microshort.item]]
       title = "About The Talk"
-      description = "Jessica Tavasti Davis has seen the rapid growth and change of cloud computing within the government in the last decade. In spite of projections that the cloud market will top $400 billion by 2020, Davis argues that there still remains a key challenge: how people perceive the cloud. She makes the case that lack of privacy and security guarantees make it difficult for the government to transition entirely to the cloud. "
+      description = "Jessica Tavasti Davis has seen the rapid growth and change of cloud computing within the government in the last decade. In spite of projections that the cloud market will top $400 billion by 2020, Davis argues that there still remains a key challenge: how people perceive the cloud. She makes the case that misconceptions about privacy and security are the main blocker for organizations to transition entirely to the cloud."
       icon = "icon-anchor"
 
 
@@ -77,7 +77,7 @@ theme = "hugo-elate-theme"
 
     [[params.microsoft.item]]
       title = "About The Talk"
-      description = "Jessica Tavasti Davis has seen the rapid growth and change of cloud computing within the government in the last decade. In spite of projections that the cloud market will top $400 billion by 2020, Davis argues that there still remains a key challenge: how people perceive the cloud. She makes the case that lack of privacy and security guarantees make it difficult for the government to transition entirely to the cloud. "
+      description = "Jessica Tavasti Davis has seen the rapid growth and change of cloud computing within the government in the last decade. In spite of projections that the cloud market will top $400 billion by 2020, Davis argues that there still remains a key challenge: how people perceive the cloud. She makes the case that misconceptions about privacy and security are the main blocker for organizations to transition entirely to the cloud."
       icon = "icon-anchor"
 
 
@@ -141,13 +141,13 @@ theme = "hugo-elate-theme"
     enable = true
     title = "Our Next Talk"
     description = ""
-    url = "https://docs.google.com/forms/d/e/1FAIpQLScl8yFX77FB3jFTKj2Vk3L3NB8nnzoakQ-CrCaKbrIgIg23Yw/viewform"
+    url = "https://docs.google.com/forms/d/1gYSoFVC2_SNMKPUZ71t0RuvGt1peQY05U9gQjiHnwCc/edit"
     button = "sign up"
 
     [[params.services.item]]
-      title = "Uber in Hot Water"
-      description = "Todd Bowers | January 11, 2018"
-      icon = "icon-car"
+      title = "The CEO Creating a Brain Chip That’s Going to Make Us All Smarter"
+      description = "Bryan Johnson | February 2, 2018"
+      icon = "icon-gears"
       url = "https://docs.google.com/forms/d/1EhoS9QmZKNz59mU5CHY9CDed5xgdcSREmXn8mwsquxM/edit"
     button = "Sign Up"
       
@@ -158,19 +158,13 @@ theme = "hugo-elate-theme"
     title = "Future Talks"
     description = ""
 
-    [[params.services1.item]]
-      title = "Money and Millenials "
-      description = "January 24, 2018 | Lynne Celia | Citigroup VP of Wealth Management"
-      icon = "icon-money"
+    
 
-    [[params.services1.item]]
-      title = "Putting a Chip in your Brain"
-      description = "February 2, 2018 | Bryan Johnson "
-      icon = "icon-head"
+    
       
 
     [[params.services1.item]]
-      title = "Solve a Rubik’s Cube and become a Millionaire"
+      title = "Solve a Rubik’s Cube and Become a Millionaire"
       description = "Sze Wong | February 21, 2018"
       icon = "icon-cube"
 
@@ -179,6 +173,10 @@ theme = "hugo-elate-theme"
       description = "Jeb Ory | March 7, 2018"
       icon = "icon-twitter"
 
+      [[params.services1.item]]
+      title = "Money and Millenials "
+      description = "March 22, 2018 | Lynne Celia"
+      icon = "icon-money"
     
 
 
