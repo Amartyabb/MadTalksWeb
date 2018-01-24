@@ -110,7 +110,7 @@ theme = "hugo-elate-theme"
   [[params.intro.item]]
     title = "Mission"
     description = "MADTalks was created to spark exploration. In our talks, we hope to bring together the diverse perspectives of leaders in a wide range of fields to encourage debate in these areas, which we strongly believe can spur the development of new ideas and change ways of thinking. "
-    url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-7jO9dyAhpUuA4/edit"
+    url = "https://docs.google.com/forms/d/1gYSoFVC2_SNMKPUZ71t0RuvGt1peQY05U9gQjiHnwCc/edit"
     button = "Sign Up"
     icon = "icon-rocket"
     img = "img_7.jpg"
@@ -148,7 +148,7 @@ theme = "hugo-elate-theme"
       title = "The CEO Creating a Brain Chip That’s Going to Make Us All Smarter"
       description = "Bryan Johnson | February 2, 2018"
       icon = "icon-gears"
-      url = "https://docs.google.com/forms/d/1EhoS9QmZKNz59mU5CHY9CDed5xgdcSREmXn8mwsquxM/edit"
+      url = "https://docs.google.com/forms/d/1gYSoFVC2_SNMKPUZ71t0RuvGt1peQY05U9gQjiHnwCc/edit"
     button = "Sign Up"
       
       
@@ -335,7 +335,7 @@ theme = "hugo-elate-theme"
 
    #   [[params.introbutton.item]]
     
-   # url = "https://docs.google.com/forms/d/1-gmkiy57PCVSBA8q1b6FRRg7DAz4e-#7jO9dyAhpUuA4/edit"
+   # url = "https://docs.google.com/forms/d/1gYSoFVC2_SNMKPUZ71t0RuvGt1peQY05U9gQjiHnwCc/edit"
   #  button = "Sign Up"
     
 
