@@ -1,14 +1,29 @@
-	<section id="fh5co-previous" data-section="Previous">
-			<section id="fh5co-chipotle" data-section="chipotle">
+<section id="fh5co-contact" data-section="contact">
+			<section id="fh5co-contact" data-section="contact">
 
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-left">
-					<h2 class=" left-border to-animate">{{ with .Site.Params.chipotle.title }}{{ . | markdownify }}{{ end }}</h2>
+					<h2 class=" left-border to-animate">{{ with .Site.Params.contact.title }}{{ . | markdownify }}{{ end }}</h2>
 					<div class="row">
 						<div class="col-md-8 subtext to-animate">
-							<h3>{{ with .Site.Params.chipotle.description }}{{ . | markdownify }}{{ end }}</h3>
+							<h3>{{ with .Site.Params.contact.description }}{{ . | markdownify }}{{ end }}</h3>
+							</div>
+					<div class="form-group ">
+						
 
+
+
+
+
+
+					</div>
+
+
+
+
+
+					
 
 						</div>
 
@@ -28,12 +43,12 @@
 				{{ end }}
 
 			<div class="row">
-			{{ range .Site.Params.chipotle.item }}
+			{{ range .Site.Params.contact.item }}
 				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
 					<i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
-					<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
 					<h3>{{ .title | markdownify }}</h3>
-					<p>{{ .description | markdownify }}</p>
+					<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
+					<p><font size="4" color = black>{{ .description | markdownify }}</font></p>
 
 
 				</div>

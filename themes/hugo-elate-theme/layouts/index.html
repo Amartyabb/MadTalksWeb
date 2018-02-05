@@ -10,6 +10,7 @@
     <body>
         {{ partial "nav.html" .}}
 
+
 		{{ partial "hero.html" .}}
 
         {{ partial "services.html" .}}
@@ -27,7 +28,6 @@
 		
 
 		
-
 	
         	
 		
@@ -36,10 +36,17 @@
         
         {{ partial "testimonials.html" .}}
 
+        {{ partial "uber.html" .}}
+            
+        
+
 		{{ if .Site.Params.about.enable }}
         	{{ partial "about.html" .}}
 		{{ end }}
 
+
+        
+        
 
        
 
@@ -47,16 +54,13 @@
         	{{ partial "counters.html" .}}
         {{ end }}
 
-		{{ if .Site.Params.contact.enable }}
-        	{{ partial "contact.html" .}}
-        {{ end }}
+		
 
         {{ if .Site.Params.signup.enable }}
             {{ partial "signup.html" .}}
         {{ end }}
 
         
-
 
         {{ if .Site.Params.footer.enable }}
         	{{ partial "footer.html" .}}

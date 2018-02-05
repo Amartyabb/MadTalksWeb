@@ -60,8 +60,6 @@ theme = "hugo-elate-theme"
 
    
 
-    
-
 
 
 
@@ -145,9 +143,9 @@ theme = "hugo-elate-theme"
     button = "sign up"
 
     [[params.services.item]]
-      title = "The CEO Creating a Brain Chip That’s Going to Make Us All Smarter"
-      description = "Bryan Johnson | February 2, 2018"
-      icon = "icon-gears"
+      title = "Solve a Rubik’s Cube and Become a Millionaire"
+      description = "Sze Wong | February 21, 2018"
+      icon = "icon-cube"
       url = "https://docs.google.com/forms/d/1gYSoFVC2_SNMKPUZ71t0RuvGt1peQY05U9gQjiHnwCc/edit"
     button = "Sign Up"
       
@@ -159,14 +157,37 @@ theme = "hugo-elate-theme"
     description = ""
 
     
+     # Services section
+  [params.uber]
+    enable = true
+    title = "Services"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.uber.item]]
+      title = "Brand &amp; Strategy"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-anchor"
+
+    [[params.uber.item]]
+      title = "Web &amp; Interface"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-layers2"
+    [[params.uber.item]]
+      title = "Photo &amp; Video"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-video2"
+
+      [[params.uber.item]]
+      title = "CMS &amp; eCommerce"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+      icon = "icon-monitor"
+
+
 
     
       
 
-    [[params.services1.item]]
-      title = "Solve a Rubik’s Cube and Become a Millionaire"
-      description = "Sze Wong | February 21, 2018"
-      icon = "icon-cube"
+    
 
     [[params.services1.item]]
       title = "The Power of Social Media in 2018 American Politics"
