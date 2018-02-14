@@ -439,23 +439,23 @@ theme = "hugo-elate-theme"
   [params.chipotleprev]
     enable = true
     title = "           "
-    description = "Marketing the Burrito Bowl: September 27, 2017"
+    description = "THIS CEO WANTS TO PUT A CHIP IN YOUR BRAIN: February 2nd, 2017"
 
     [[params.chipotleprev.item]]
       title = "About The Talk"
-      description = "Every day, about one million people eat Chipotle. Jake Park takes us inside the fast-casual restaurant’s unconventional philosophy of reaching and retaining customers and its “advertising as education” approach to marketing. He also discusses the defined meaning of Chipotle’s brand promise after several catastrophic food safety crises. "
+      description = "“Everything we are, everything we build, and everything we aspire to become stems from the brain. So why is the brain such a blind spot in our society? Kernel is an attempt, a first attempt at trying to make a dent in the tools we have to interface with the brain.” "
       icon = "icon-anchor"
 
 
     [[params.chipotleprev.item]]
-      title = "Jake Park"
-      img = "jake.jpg"
-      description = "Jake Park helps design the framework necessary for Chipotle to reach its customers and expand its market both locally and nationally. Previously, he was Senior Brand Associate for Capital One, working specializing in small businesses."
+      title = "Bryan Johnson"
+      img = "bryanjohnson.JPG"
+      description = "Bryan Johnson is the founder of Kernel, OS Fund, and Braintree. After selling Braintree to eBay in 2013 for $800MM, Johnson launched Kernel to build advanced neural interfaces to extend human cognition. He was the first to enter this space that is developing a product to fuse brain and computer, one that seeks to read and write neural data."
       icon = "icon-layers2"
 
       [[params.chipotleprev.item]]
       title = ""
-      img = "chipotle2.jpg"
+      img = "johnsontalk.jpg"
       description = ""
       icon = "icon-layers2"
     
