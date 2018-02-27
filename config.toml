@@ -144,7 +144,7 @@ theme = "hugo-elate-theme"
 
     [[params.services.item]]
       title = "Solve a Rubik’s Cube and Become a Millionaire"
-      description = "Sze Wong | February 23, 2018"
+      description = "Sze Wong | February 28, 2018"
       icon = "icon-cube"
       url = "https://docs.google.com/forms/d/1N_x9-G4gh1wfsmisldqZo3tUFq8fkKxqj3VaPmTWFcM/edit"
     button = "Sign Up"
