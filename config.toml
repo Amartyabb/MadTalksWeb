@@ -143,7 +143,7 @@ theme = "hugo-elate-theme"
     button = "sign up"
 
     [[params.services.item]]
-      title = "MadTalks with Laura Lane"
+      title = "Records from Rwandan Genocide"
       description = "Laura Lane | March 22nd, 2018"
       icon = "icon-cube"
       url = "https://docs.google.com/forms/d/e/1FAIpQLScpl-o-8lmD_eXdzzVRIget9c5k50BpUMnzHabxk-1W_IQjUw/viewform"
@@ -151,55 +151,7 @@ theme = "hugo-elate-theme"
       
       
 
-      [params.services1]
-    enable = true
-    title = "Future Talks"
-    description = ""
-
-    
-     # Services section
-  [params.uber]
-    enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.uber.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
-
-    [[params.uber.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
-    [[params.uber.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
-
-      [[params.uber.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
-
-
-
-    
-      
-
-    
-
-    [[params.services1.item]]
-      title = "The Power of Social Media in 2018 American Politics"
-      description = "Jeb Ory | March 7, 2018"
-      icon = "icon-twitter"
-
-      [[params.services1.item]]
-      title = "Money and Millenials "
-      description = "March 22, 2018 | Lynne Celia"
-      icon = "icon-money"
-    
-
+     
 
 
   # About section
