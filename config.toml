@@ -139,14 +139,14 @@ theme = "hugo-elate-theme"
     enable = true
     title = "Our Next Talk"
     description = ""
-    url = "https://docs.google.com/forms/d/1gYSoFVC2_SNMKPUZ71t0RuvGt1peQY05U9gQjiHnwCc/edit"
+    url = "https://docs.google.com/forms/d/e/1FAIpQLScpl-o-8lmD_eXdzzVRIget9c5k50BpUMnzHabxk-1W_IQjUw/viewform"
     button = "sign up"
 
     [[params.services.item]]
-      title = "Solve a Rubik’s Cube and Become a Millionaire"
-      description = "Sze Wong | February 28, 2018"
+      title = "MadTalks with Laura Lane"
+      description = "Laura Lane | March 22nd, 2018"
       icon = "icon-cube"
-      url = "https://docs.google.com/forms/d/1N_x9-G4gh1wfsmisldqZo3tUFq8fkKxqj3VaPmTWFcM/edit"
+      url = "https://docs.google.com/forms/d/e/1FAIpQLScpl-o-8lmD_eXdzzVRIget9c5k50BpUMnzHabxk-1W_IQjUw/viewform"
     button = "Sign Up"
       
       
